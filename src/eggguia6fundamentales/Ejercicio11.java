@@ -38,7 +38,13 @@ public class Ejercicio11 {
        
         do{
             
-            System.out.println("Seleccione una opcion ");
+            System.out.println("Seleccione una opcion \n"
+                    +"1- suma \n"
+                    +"2- resta \n"
+                    +"3- Multiplicacion \n"
+                    +"4- Division \n"
+                    +"5- Salir \n");
+                    
             
             opcion = leer.nextInt();
             switch (opcion) {
@@ -63,8 +69,9 @@ public class Ejercicio11 {
                     
                     break;
                 case 5:
+                    
                     System.out.println("Esta seguro que desea salir del programa? ");
-                   String letra = leer.nextLine();
+                   String letra = leer.next();
                     if (letra.equalsIgnoreCase("S")){
                          break;
                     }else{

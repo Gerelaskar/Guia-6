@@ -22,8 +22,8 @@ public class Ejercicio10 {
         do{
             System.out.println("Ingrese el numero limite ");
             int num=leer.nextInt();
-            suma = suma + num;
-        }while (suma>limite);
+            suma = suma + num; 
+        }while (suma<limite);
         System.out.println("La suma es mayor al limite ");
     }
     
