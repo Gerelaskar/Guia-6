@@ -18,9 +18,9 @@ public class Ejercicio18 {
             System.out.println();
             for (int j = 0; j < 4; j++) {
                 matriz [i] [j] = (int)(Math.random()*10);
-                System.out.println("[");
-                System.out.println(matriz [i] [j]);
-                System.out.println("]");
+                System.out.print("[");
+                System.out.print(matriz [i] [j]);
+                System.out.print("]");
             }
             
         }
